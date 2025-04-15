@@ -16,7 +16,7 @@ function Clients(){
 <div className="flex flex-wrap gap-[30px] lg:gap-[70px] justify-center pt-[40px] ">
 {
     clients.map((client,index)=>(
-        <img src={client} className="w-[45%] h-[100px] lg:w-[25%] lg:h-[250px]" />
+        <img src={client}  alt="image"   className="w-[45%] h-[100px] lg:w-[25%] lg:h-[250px]" />
     )
 
     )

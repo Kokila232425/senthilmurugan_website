@@ -37,7 +37,7 @@ function Product(){
                 lists.map((list)=>(
 <div className="flex flex-col justify-center items-center gap-[12px] w-[46%] lg:w-[25%]  lg:gap-[32px]" >
 <div className="text-[16px] lg:text-[24px] text-[#FFFFFF] font-interItalic text-center">{list.name}</div>
-<img src={list.src} className="h-[150px] w-[150px] lg:w-[250px] lg:h-[250px]"/>
+<img src={list.src} alt="image"  className="h-[150px] w-[150px] lg:w-[250px] lg:h-[250px]"/>
 
 </div>
 

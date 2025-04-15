@@ -18,8 +18,8 @@ setActive(id);
     }
     return (
 <div className="sticky top-0 flex justify-between justify-center items-center w-full py-[8px] px-[12px] lg:py-[28px] lg:px-[77px] bg-[#FFC107]">
-<a href="#home"><img src={logo} className="h-[50px] w-[120px] lg:w-[150px] lg:h-[60px]"/></a>
-<img src={triplebar} className="h-[30px] w-[30px] lg:hidden"  onClick={() => setshowModal(true)}/>
+<a href="#home"><img src={logo} alt="image"  className="h-[50px] w-[120px] lg:w-[150px] lg:h-[60px]"/></a>
+<img src={triplebar} alt="image" className="h-[30px] w-[30px] lg:hidden"  onClick={() => setshowModal(true)}/>
 <Modal
         isOpen={showModal}
         onClose={() => setshowModal(false)}

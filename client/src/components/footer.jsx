@@ -11,9 +11,9 @@ function Footer(){
         <div id="footer" className="py-[16px] bg-[#090C63] flex flex-col lg:flex-row  px-[20px] lg:py-[80px] lg:px-[98px] lg:justify-between justify-center ">
 <section className="flex flex-col">
 <div className="text-[18px] lg:text-[32px] font-inter text-[#FFFFFF]">SENTHILMURUGAN TRADERS</div>
-<div className="flex  items-center pt-[8px] lg:text-[24px]"><img src={mail} className="h-[16px] w-[16px] lg:w-[32px] lg:h-[32px]  pr-[4px] lg:pr-[10px]"/><span className="text-[14px] font-interItalic text-[#FFFFFF] lg:text-[24px]">senthilmurugantraders123@gmail.com</span></div>
-<div className="flex  items-center  pt-[8px] lg:text-[24px]"><img src={call} className="h-[16px] w-[16px] pr-[4px] lg:w-[32px] lg:h-[32px] lg:pr-[10px] "/><span className="text-[14px] font-interItalic text-[#FFFFFF] lg:text-[24px]"> +91 904 376 4342</span></div>
-<div className="flex  pt-[8px] lg:text-[24px] lg:w-[400px]"><img src={whiteplace} className="h-[16px] w-[16px] lg:w-[32px] lg:h-[32px] lg:pr-[10px] pr-[4px]"/><span className="text-[14px] font-interItalic text-[#FFFFFF]  lg:text-[24px]"> Senthilmurugan Traders,
+<div className="flex  items-center pt-[8px] lg:text-[24px]"><img src={mail} alt="image"  className="h-[16px] w-[16px] lg:w-[32px] lg:h-[32px]  pr-[4px] lg:pr-[10px]"/><span className="text-[14px] font-interItalic text-[#FFFFFF] lg:text-[24px]">senthilmurugantraders123@gmail.com</span></div>
+<div className="flex  items-center  pt-[8px] lg:text-[24px]"><img src={call} alt="image"  className="h-[16px] w-[16px] pr-[4px] lg:w-[32px] lg:h-[32px] lg:pr-[10px] "/><span className="text-[14px] font-interItalic text-[#FFFFFF] lg:text-[24px]"> +91 904 376 4342</span></div>
+<div className="flex  pt-[8px] lg:text-[24px] lg:w-[400px]"><img src={whiteplace} alt="image"  className="h-[16px] w-[16px] lg:w-[32px] lg:h-[32px] lg:pr-[10px] pr-[4px]"/><span className="text-[14px] font-interItalic text-[#FFFFFF]  lg:text-[24px]"> Senthilmurugan Traders,
 Sf.No.117/1, NTR Nagar,Mookandapalli, Hosur,Krishnagiri(DT), Tamil Nadu, PIN: 635126.</span></div>
 </section>
 
@@ -30,7 +30,7 @@ Sf.No.117/1, NTR Nagar,Mookandapalli, Hosur,Krishnagiri(DT), Tamil Nadu, PIN: 63
 <section className="flex gap-[20px] lg:gap-[30px] lg:flex-col">
 {
     socialmedia.map((social,index)=>(
-        <img src={social} className="w-[40px] h-[40px] lg:h-[72px] lg:w-[72px]"/>
+        <img src={social} alt="image"  className="w-[40px] h-[40px] lg:h-[72px] lg:w-[72px]"/>
     )
 
     )

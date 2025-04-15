@@ -36,14 +36,14 @@ function Contact(){
  <div className="text-[16px] text-[#000000] font-Inter lg:text-[22px] text-center italic pb-[2px]">Visit us at our location or send physical mail to the address below.</div>
  <div className="text-[16px] text-[#090C63] font-Inter lg:text-[22px]  font-medium">Address:</div>
  <div className="flex ">
-<img src={placeicon} className="w-[32px] h-[32px] lg:w-[24px] lg:h-[30px]"/>
+<img src={placeicon} alt="image"  className="w-[32px] h-[32px] lg:w-[24px] lg:h-[30px]"/>
 <div className="text-[16px] text-[#090C63] font-Inter lg:text-[22px] font-medium">Senthilmurugan Traders,
 Sf.No.117/1, NTR Nagar,Mookandapalli, Hosur,Krishnagiri(DT), Tamil Nadu, PIN: 635126.</div>
  </div>
  </section>
 
-<img src={rectangle} className="py-[16px] lg:hidden"/>
-<img src={rectanglevertical} className="hidden lg:block lg:h-[691px] lg:px-[50px] lg:pt-[30px]"/>
+<img src={rectangle} alt="image"   className="py-[16px] lg:hidden"/>
+<img src={rectanglevertical} alt="image"  className="hidden lg:block lg:h-[691px] lg:px-[50px] lg:pt-[30px]"/>
 
 <form className="flex flex-col lg:gap-[8px] w-full lg:pt-[30px]" ref={form} onSubmit={sendEmail}>
 <div className="text-[16px] text-[#090C63] font-Inter lg:text-[22px]">Name:</div>
